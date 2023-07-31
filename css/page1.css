@@ -960,7 +960,7 @@ textarea.w-select {
     width: 70px;
     position: absolute;
     right: -29%;
-    top: -15%;
+    top: 6%;
 }
 
 @media screen and (max-width:767px) {
@@ -989,7 +989,7 @@ textarea.w-select {
         width: 70px;
         position: absolute;
         right: -29%;
-        top: -15%;
+        top: 6%;
     }
 
     .w-col-small-1 {
@@ -1552,7 +1552,7 @@ textarea.w-select {
         width: 70px;
         position: absolute;
         right: -29%;
-        top: -15%;
+        top: 6%;
     }
     
 }
@@ -1805,7 +1805,7 @@ textarea.w-select {
         width: 70px;
         position: absolute;
         right: -29%;
-        top: -15%;
+        top: 6%;
     }
 
     .w-lightbox-view,
@@ -2593,7 +2593,7 @@ figcaption {
     width: 70px;
     position: absolute;
     right: 104%;
-    top: -15%;
+    top: 6%;
     }
 
 .logo-link:hover {
@@ -4287,7 +4287,7 @@ figcaption {
     width: 70px;
     position: absolute;
     right: 104%;
-    top: -15%;
+    top: 6%;
 }
 
 @media screen and (max-width:479px) {
@@ -4334,8 +4334,8 @@ figcaption {
     .logoimage {
         width: 70px;
         position: absolute;
-        right: 8%;
-        top: -15%;
+        right: -80%;
+        top: 6%;
     }
 
     .menu-button,
@@ -4358,7 +4358,7 @@ figcaption {
 
     .hero-section.cc-subpage {
         height: 220px;
-        background-image: linear-gradient(rgba(31, 46, 93, .55), rgba(31, 46, 93, .55)), url(../images/5fd2fb7f6121203e60faf395_pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+        
         background-size: auto, 120%
     }
 
