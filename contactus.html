@@ -58,6 +58,32 @@
                 top: 9% !important; /* Override the top property */
             }
         }
+        .map-container {
+  position: relative;
+  width: 100%;
+  padding-top: 50%; /* 2:1 aspect ratio (height is half of the width) */
+  overflow: hidden;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1280px){
+.col.lg-5.align-vertically {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 0px;
+    padding-right: 0;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+}
     </style>
 </head>
 
@@ -139,6 +165,15 @@
             
         </div>
     </div>
+  
+        <div class="col lg-5 align-vertically">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.689566598483!2d-79.70123252368337!3d43.779302471096486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3d2bb9c62389%3A0xd0adec469838ac2c!2s49%20Purebrook%20Crescent%2C%20Brampton%2C%20ON%20L6P%202P5!5e0!3m2!1sen!2sca!4v1690897492711!5m2!1sen!2sca" style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              
+        </div>
+       
+
     
 
     <div class="section-main footer">
